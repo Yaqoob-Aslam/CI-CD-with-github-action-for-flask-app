@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: yaqoobaslam/app:latest
+          tags: yaqoobaslam/app:github.run_number	
